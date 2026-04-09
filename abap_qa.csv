@@ -1,0 +1,121 @@
+question,answer
+What is ALV?,ALV is ABAP List Viewer used to display structured data in SAP.
+How to create ALV report?,Use REUSE_ALV_GRID_DISPLAY or CL_SALV_TABLE.
+What is CL_SALV_TABLE?,It is a class used for creating OO ALV reports.
+Difference between ALV and SALV?,SALV is object oriented version of ALV.
+What is BAPI?,BAPI is Business Application Programming Interface.
+How to call BAPI?,Use CALL FUNCTION and COMMIT WORK.
+What is IDOC?,IDOC is intermediate document for data exchange.
+Types of IDOC?,Basic type and message type.
+What is Smartform?,Tool used for designing SAP forms.
+How to create Smartform?,Use SMARTFORMS transaction.
+What is internal table?,Temporary data storage in memory.
+Types of internal tables?,Standard Sorted Hashed.
+What is SELECT SINGLE?,Fetch single record from database.
+Difference SELECT SINGLE vs UP TO 1 ROWS?,SELECT SINGLE uses primary key.
+What is debugging?,Process of analyzing program execution.
+How to debug ABAP?,Use /h or breakpoints.
+What is BADI?,Enhancement technique using classes.
+What is user exit?,Predefined enhancement point.
+Difference between BADI and user exit?,BADI is object oriented.
+What is RFC?,Remote Function Call.
+Types of RFC?,Synchronous Asynchronous Transactional.
+What is SAP LUW?,Logical unit of work.
+What is COMMIT WORK?,Saves database changes.
+What is ROLLBACK WORK?,Cancels changes.
+What is Open SQL?,SAP SQL for database access.
+What is Native SQL?,Direct database SQL.
+What is JOIN in ABAP?,Combine multiple tables.
+Types of joins?,Inner join left outer join.
+What is FOR ALL ENTRIES?,Fetch data based on internal table.
+What is performance tuning?,Optimizing ABAP code.
+How to improve performance?,Use indexes and avoid loops.
+What is index?,Database performance structure.
+What is SE11?,Data dictionary transaction.
+What is SE38?,ABAP editor transaction.
+What is SE80?,Object navigator.
+What is SE37?,Function module builder.
+What is SE24?,Class builder.
+What is table buffering?,Store table data in memory.
+What is view in SAP?,Virtual table.
+Types of views?,Database Projection Help view.
+What is domain?,Defines technical attributes.
+What is data element?,Defines semantic meaning.
+What is structure?,Group of fields.
+What is append structure?,Enhance table structure.
+What is lock object?,Used for data locking.
+What is enqueue?,Locking mechanism.
+What is dequeue?,Unlocking mechanism.
+What is report program?,Executable ABAP program.
+Types of reports?,Classical and interactive.
+What is event block?,Execution blocks in ABAP.
+What is INITIALIZATION?,Event before selection screen.
+What is START-OF-SELECTION?,Main processing event.
+What is AT SELECTION-SCREEN?,Validation event.
+What is parameter?,Single input field.
+What is select-options?,Multiple range input.
+What is loop?,Iterate internal table.
+What is READ TABLE?,Fetch row from internal table.
+What is MODIFY?,Update internal table.
+What is DELETE?,Remove data.
+What is CLEAR?,Reset variable.
+What is FREE?,Release memory.
+What is MOVE?,Assign value.
+What is MOVE-CORRESPONDING?,Move matching fields.
+What is field-symbol?,Pointer-like variable.
+What is work area?,Single row structure.
+What is ALV Grid?,Interactive ALV display.
+What is hotspot?,Clickable field.
+What is variant?,Saved layout.
+What is authorization object?,Security control.
+What is role in SAP?,Collection of authorizations.
+What is transport request?,Move changes across systems.
+Types of transport?,Workbench and customizing.
+What is CTS?,Change transport system.
+What is batch job?,Background processing.
+What is SM37?,Job monitoring transaction.
+What is SM36?,Job scheduling.
+What is spool?,Output storage.
+What is Smartstyle?,Style in Smartforms.
+What is SAPscript?,Old form tool.
+Difference Smartform vs SAPscript?,Smartform is easier.
+What is interface in ABAP?,Communication between programs.
+What is proxy?,Web service interface.
+What is OData?,REST based service.
+What is Gateway?,SAP API layer.
+What is CDS view?,Advanced data model.
+What is AMDP?,ABAP managed DB procedure.
+What is HANA?,In-memory database.
+What is code pushdown?,Processing in DB layer.
+What is table function?,Function returning table.
+What is ABAP OO?,Object oriented ABAP.
+What is class?,Blueprint of object.
+What is object?,Instance of class.
+What is method?,Function inside class.
+What is attribute?,Variable in class.
+What is inheritance?,Reuse parent class.
+What is polymorphism?,Multiple behavior.
+What is encapsulation?,Data hiding.
+What is constructor?,Initialization method.
+What is interface in OO?,Contract definition.
+What is exception?,Error handling.
+What is TRY CATCH?,Exception block.
+What is MESSAGE?,Display message.
+Types of messages?,Error Warning Info.
+What is sy-subrc?,Return code.
+What is sy-tabix?,Current index.
+What is sy-datum?,System date.
+What is sy-uzeit?,System time.
+What is string?,Dynamic text.
+What is char?,Fixed length text.
+What is packed number?,Decimal storage.
+What is currency field?,Stores currency value.
+What is unit field?,Stores unit.
+What is conversion exit?,Data format conversion.
+What is search help?,F4 help.
+What is matchcode?,Old search help.
+What is selection screen?,User input screen.
+What is screen painter?,Dynpro design.
+What is module pool?,Dialog programming.
+What is PBO?,Process before output.
+What is PAI?,Process after input.
